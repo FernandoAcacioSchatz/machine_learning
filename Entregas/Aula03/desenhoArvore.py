@@ -6,6 +6,9 @@ from sklearn.tree import plot_tree
 import matplotlib.pyplot as plt
 
 from tabulate import tabulate
+from sklearn.datasets import load_iris
+
+dados = load_iris()
 
 df = pd.read_csv(
     r"C:\Users\Fernando Acácio\OneDrive\Área de Trabalho\Entra21\Python\machine_learning\Aula 03\Aula03_Primeiro_Modelo_ML\datasets\alunos_tratado.csv"
