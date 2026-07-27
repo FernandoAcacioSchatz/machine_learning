@@ -7,15 +7,18 @@ import matplotlib.pyplot as plt
 
 from tabulate import tabulate
 from sklearn.datasets import load_iris
+import joblib
 
 # ESSA LINHA CRIA A VARIÁVEL 'dados':
 dados = load_iris()
-df = pd.read_csv(
-    r"C:\Users\Fernando Acácio\OneDrive\Área de Trabalho\Entra21\Python\machine_learning\Aula 03\Aula03_Primeiro_Modelo_ML\datasets\alunos_tratado.csv"
-)
 
-X = df[["Idade", "Nota", "Frequencia"]]
-y = df["Aprovado"]
+df = pd.read_csv(
+    r"C:\Users\Fernando Acácio\OneDrive\Área de Trabalho\Entra21\Python\machine_learning\Aula 02\Aula02_Limpeza_Preparacao_Dados\datasets\gabarito\clientes_tratado.csv"
+)
+print(tabulate(df, headers="keys", tablefmt="grid"))
+
+X = df[["Idade", "Renda"]]
+y = df["Comprou"]
 
 X_treino, X_teste, y_treino, y_teste = train_test_split(
     X, y, test_size=0.2, random_state=42
@@ -44,3 +47,5 @@ plt.show()
 
 for coluna, importancia in zip(X.columns, modelo.feature_importances_):
     print(coluna, importancia)
+
+joblib.dump(modelo, "clientes_aprovacao.pkl")
