@@ -4,6 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
+from tabulate import tabulate
 
 df = pd.read_csv(
     r"C:\Users\Fernando Acácio\OneDrive\Área de Trabalho\Entra21\Python\machine_learning\Aula 03\Aula03_Primeiro_Modelo_ML\datasets\alunos_tratado.csv"
@@ -31,3 +32,6 @@ print(f"Acurácia do modelo: {acuracia * 100:.2f}%")
 # 2. Relatório completo (Precisão, Recall, F1-score)
 print("\nRelatório de Classificação:")
 print(classification_report(y_teste, previsoes))
+
+print(tabulate(df, headers="keys", tablefmt="grid"))
+print("AQUI")
