@@ -17,7 +17,7 @@ df = pd.read_csv(
 )
 print(tabulate(df, headers="keys", tablefmt="grid"))
 
-X = df[["Idade", "Renda"]]
+X = df[["Idade", "Renda", "Visitas_Site", "Compras_Anteriores"]]
 y = df["Comprou"]
 
 X_treino, X_teste, y_treino, y_teste = train_test_split(
@@ -35,13 +35,14 @@ print(f"Acurácia: {acuracia:.2%}")
 print("\nRelatório de Classificação:")
 print(classification_report(y_teste, previsoes))
 
-plt.figure(figsize=(15, 8))
+plt.figure(figsize=(20, 10))
 plot_tree(
     modelo,
-    feature_names=X.columns,
-    class_names=["Não", "Sim"],
+    feature_names=list(X.columns),
+    class_names=["Não Comprou", "Comprou"],
     filled=True,
-    fontsize=10,
+    rounded=True,
+    fontsize=12,
 )
 plt.show()
 
