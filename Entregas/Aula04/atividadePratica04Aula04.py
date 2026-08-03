@@ -1,18 +1,37 @@
 import numpy as np
 
-np.set_printoptions(precision=2, suppress=True)
+X = np.array([[18, 8.0, 90], [19, 5.5, 65], [20, 9.0, 95]])
 
-np.random.seed(42)
+y = np.array([1, 0, 1])
 
-idades = np.random.randint(16, 51, size=20)
-notas = np.round(np.random.uniform(0, 10, size=20) * 2) / 2
-frequencias = np.random.randint(50, 101, size=20)
+novo_aluno = np.array([[20, 8.5, 92]])
 
-X = np.column_stack((idades, notas, frequencias))
 
-y = np.where((notas >= 7) & (frequencias >= 75), 1, 0)
-
-print(X)
-print(y)
+# Qual é o shape?
+print("Qual é o shape?")
 print(X.shape)
 print(y.shape)
+print()
+# Quantas dimensões possui?
+print("Quantas dimensões possui?")
+print(X.ndim)
+print(y.ndim)
+print()
+# Por que o modelo pode recusar essa estrutura?
+print(
+    "Por que o modelo pode recusar essa estrutura?\nPorque o modelo espera uma matriz 2D para X e um vetor 1D para y"
+)
+print()
+# Como transformar em uma matriz com uma linha?
+print(
+    "Como transformar em uma matriz com uma linha?\nAdicionando uma dimensão extra com colchetes"
+)
+# novo_aluno = np.array([[20, 8.5, 92]])
+print()
+# Como fazer isso utilizando colchetes?
+print("Como fazer isso utilizando colchetes?")
+# novo_aluno = np.array([[20, 8.5, 92]])
+print()
+# Como fazer isso utilizando reshape()?
+print("Como fazer isso utilizando reshape()?")
+print(np.array([20, 8.5, 92]).reshape(1, -1))
