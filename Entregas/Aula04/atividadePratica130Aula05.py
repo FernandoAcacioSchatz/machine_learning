@@ -1,0 +1,26 @@
+import numpy as np
+
+valores = np.array([10, 20, 30, 40, 50, 60])
+
+print("1. Acesse o primeiro valor.")
+print(valores[0])
+print("2. Acesse o quarto valor.")
+print(valores[3])
+print("3. Acesse o último valor.")
+print(valores[-1])
+print("4. Acesse o penúltimo valor.")
+print(valores[-2])
+print("5. Altere o segundo valor para 25.")
+valores[1] = 25
+print(valores)
+print("6. Inverta o array.")
+print(valores[::-1])
+print("7. Selecione os três primeiros valores.")
+print(valores[:3])
+print("8. Selecione do terceiro valor até o final.")
+print(valores[2:])
+print("9. Selecione os valores de dois em dois.")
+print(valores[::2])
+print("10. Selecione os valores de dois em dois a partir do segundo valor.")
+print(valores[1::2])
+print(valores[::2])
