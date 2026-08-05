@@ -554,7 +554,7 @@ Calcule:
 - P90
 
 ---
-
+ 
 ## Exercício 4
 
 Explique por que o Percentil 50 também é chamado de mediana.
