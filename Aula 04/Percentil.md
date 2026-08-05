@@ -625,4 +625,3 @@ Resposta correta:
 Os percentis são uma ferramenta essencial para interpretar dados de forma mais robusta do que apenas utilizando médias. Eles permitem compreender a posição de um indivíduo ou de uma observação dentro de um conjunto de dados, sendo amplamente utilizados em estatística, educação, saúde, finanças e Machine Learning. Dominar esse conceito é um passo importante para realizar análises exploratórias mais precisas e construir modelos de aprendizado de máquina mais confiáveis.
 ````
 
-Este material foi pensado para uma aula introdutória, com exemplos práticos e analogias. Em uma sequência de Machine Learning, ele se encaixa muito bem antes do estudo de **BoxPlot, IQR, tratamento de outliers e normalização de dados**, pois esses tópicos utilizam percentis constantemente.
