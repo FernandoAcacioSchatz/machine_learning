@@ -163,10 +163,11 @@ Para começar, usaremos classificação binária:
 
 Exemplo:
 
-               Previsto NÃO   Previsto SIM
-  ---------- -------------- --------------
-  Real NÃO               50              5
-  Real SIM               10             35
+  |             |Previsto NÃO |  Previsto SIM|
+  |----------|--------------|--------------|
+  |Real NÃO  |             50 |             5|
+  |Real SIM  |             10  |           35|
+  ----------------------------------------------
 
 Ela permite enxergar não apenas quantos erros aconteceram, mas **quais
 erros** aconteceram.
