@@ -1,4 +1,4 @@
-# AULA 04 --- Introdução à IA Generativa e Prompt Engineering
+# AULA 08 --- Introdução à IA Generativa e Prompt Engineering
 
 **Trilha de IA Aplicada --- Base Comum dos Projetos**\
 **Carga horária sugerida:** 4 horas\
