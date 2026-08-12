@@ -1,4 +1,4 @@
-# AULA 02 --- Como avaliar um modelo de classificação?
+# AULA 06 --- Como avaliar um modelo de classificação?
 
 **Trilha de IA Aplicada --- Base Comum dos Projetos**\
 **Carga horária sugerida:** 4 horas\
