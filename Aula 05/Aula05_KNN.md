@@ -579,25 +579,19 @@ O `StandardScaler` exerce um papel parecido para as features numéricas.
 
 # 19. KNN × Árvore de Decisão
 
-Vocês já conhecem Árvore de Decisão.
+Vocês já conhecem a Árvore de Decisão.
 
 Agora podemos comparar os conceitos.
 
-  |-------------------|-----------------------|-----------------------------|
-  |Característica     |     Árvore de Decisão  |     KNN|
-  |-------------------|---- -------------------|---- -----------------------|
-  |Ideia principal    |  cria decisões/regras a | procura exemplos|
-  |                   |     partir das features |    próximos|
-  |-------------------|-------------------------|-----------------------------|
-  | Usa vizinhos?     |       Não              |       Sim                   |
-|----------------------|-----------------------|------------------------------|
- | Distância é importante?| Não da mesma forma  |     Sim|
- | Escala costuma ser   |   Menos sensível    |      Muito importante|
- | crítica?            |                     |                      |
- | Possui K?         |      Não          |           Sim |
-|  Pode classificar?   |    Sim            |         Sim  |
- | É supervisionado?  |     Sim          |           Sim  |
-  -----------------------------------------------------------------------
+| Característica | Árvore de Decisão | KNN |
+|---|---|---|
+| Ideia principal | Cria decisões e regras a partir das features | Procura exemplos próximos |
+| Usa vizinhos? | Não | Sim |
+| A distância é importante? | Não da mesma forma | Sim |
+| A escala costuma ser crítica? | Menos sensível | Muito importante |
+| Possui o parâmetro K? | Não | Sim |
+| Pode classificar? | Sim | Sim |
+| É supervisionado? | Sim | Sim |
 
 ### Importante
 
