@@ -1,5 +1,5 @@
 KIT AULA 5 — KNN: CLASSIFICAÇÃO POR VIZINHOS MAIS PRÓXIMOS
-https://colab.research.google.com/drive/1L1kqqjCdKLxwUOG6_E3UmQPqijEpHIgL?usp=sharing
+
 Arquivos:
 - 05_knn_atraso_medicamentos_alunos.ipynb: notebook guiado para o Google Colab.
 - atrasos_medicamentos.csv: dataset principal com 180 registros sintéticos e target.
