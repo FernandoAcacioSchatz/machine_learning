@@ -1,4 +1,4 @@
-# AULA 01 --- KNN: Classificação por Vizinhos Mais Próximos
+# AULA 05 --- KNN: Classificação por Vizinhos Mais Próximos
 
 **Trilha de IA Aplicada --- Projeto Cuidadores**\
 **Carga horária sugerida:** 4 horas\
