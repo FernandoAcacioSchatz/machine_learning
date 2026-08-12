@@ -35,14 +35,14 @@ programados.
 
 Com o passar do tempo, o sistema acumula registros como:
 
-  Dia       Turno     Lembretes   Atraso médio anterior Atrasou?
-  --------- ------- ----------- ----------------------- ----------
-  Segunda   Manhã             1                   2 min Não
-  Segunda   Noite             2                  15 min Sim
-  Terça     Manhã             1                   0 min Não
-  Sexta     Noite             3                  24 min Sim
-  Domingo   Tarde             2                  12 min Sim
-
+ | Dia    |   Turno   |  Lembretes  | Atraso médio |  anterior Atrasou?  |
+ |--------|-----------|-------------|--------------|---------------------|
+ |Segunda |  Manhã    |      1      |  2 min       |      Não            |
+ |Segunda |  Noite    |      2      | 15 min       |      Sim            |
+ |Terça   |  Manhã    |      1      |  0 min       |      Não            |
+ |Sexta   |  Noite    |      3      | 24 min       |      Sim            |
+ |Domingo |  Tarde    |      2      | 12 min       |      Sim            |
+---------------------------------------------------------------------------
 Queremos investigar:
 
 > **A partir de registros anteriores, é possível classificar uma nova
