@@ -583,24 +583,20 @@ Vocês já conhecem Árvore de Decisão.
 
 Agora podemos comparar os conceitos.
 
-  -----------------------------------------------------------------------
-  Característica          Árvore de Decisão       KNN
-  ----------------------- ----------------------- -----------------------
-  Ideia principal         cria decisões/regras a  procura exemplos
-                          partir das features     próximos
-
-  Usa vizinhos?           Não                     Sim
-
-  Distância é importante? Não da mesma forma      Sim
-
-  Escala costuma ser      Menos sensível          Muito importante
-  crítica?                                        
-
-  Possui K?               Não                     Sim
-
-  Pode classificar?       Sim                     Sim
-
-  É supervisionado?       Sim                     Sim
+  |-------------------|-----------------------|-----------------------------|
+  |Característica     |     Árvore de Decisão  |     KNN|
+  |-------------------|---- -------------------|---- -----------------------|
+  |Ideia principal    |  cria decisões/regras a | procura exemplos|
+  |                   |     partir das features |    próximos|
+  |-------------------|-------------------------|-----------------------------|
+  | Usa vizinhos?     |       Não              |       Sim                   |
+|----------------------|-----------------------|------------------------------|
+ | Distância é importante?| Não da mesma forma  |     Sim|
+ | Escala costuma ser   |   Menos sensível    |      Muito importante|
+ | crítica?            |                     |                      |
+ | Possui K?         |      Não          |           Sim |
+|  Pode classificar?   |    Sim            |         Sim  |
+ | É supervisionado?  |     Sim          |           Sim  |
   -----------------------------------------------------------------------
 
 ### Importante
