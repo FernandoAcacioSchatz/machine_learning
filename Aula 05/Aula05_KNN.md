@@ -106,12 +106,13 @@ em que a resposta correta já é conhecida.
 
 Imagine:
 
-    Lembretes   Atraso médio Resultado
-  ----------- -------------- -------------
-            1              2 Não atrasou
-            3             22 Atrasou
-            1              1 Não atrasou
-            2             18 Atrasou
+   | Lembretes |  Atraso médio | Resultado |
+   |-----------|---------------|-----------|
+   |    1      |        2      | Não atrasou |
+   |    3      |       22      |  Atrasou  |
+   |    1      |        1      |Não atrasou|
+   |    2      |      18       |Atrasou  |
+   ------------------------------------------
 
 O modelo recebe exemplos contendo:
 
