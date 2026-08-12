@@ -5,6 +5,9 @@
 **Pré-requisitos:** features, target, classificação, treino/teste e
 métricas básicas.
 
+**Link Colab 
+https://colab.research.google.com/drive/1siIiWtC72rY-qq2hdU1G-Dl5oGhrwp8w?usp=sharing**
+
 ------------------------------------------------------------------------
 
 ## 1. Situação-problema
