@@ -2,7 +2,7 @@ import numpy as np
 
 notas = np.array([7.5, -1.0, 8.5, 11.0, np.nan, 6.0])
 
-print(notas)
+print(notas)  
 print("Identifique notas menores que zero.")
 notaMenorZero = notas[notas < 0]
 print(notaMenorZero)
